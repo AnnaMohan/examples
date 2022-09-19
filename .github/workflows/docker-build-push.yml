@@ -21,5 +21,6 @@ jobs:
       -
         name: Build and push
         run: |
+          pwd
           docker image build -t annamohan/my-project:v1 .
           docker push annamohan/my-project:v1
